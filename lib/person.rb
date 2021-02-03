@@ -11,7 +11,11 @@ class Person
         @hygiene = 8
     end
 
-   
+    def clean? 
+        hygiene > 7 
+
+    end
+
 end 
 
 person1 = Person.new("Linda")
